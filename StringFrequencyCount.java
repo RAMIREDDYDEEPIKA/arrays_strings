@@ -1,6 +1,7 @@
 package com.arrays;
 
 import java.util.HashMap;
+
 public class StringFrequencyCount 
 {
 	public static void main(String[] args)
@@ -20,9 +21,7 @@ public class StringFrequencyCount
 					occurs.put(ch, 1);
 				}
 			}
-		}System.out.print("Count of each char in the string: "+occurs);
-		
-		
+		}
+		System.out.print("Count of each char in the string: "+occurs);		
 	}
-
 }
