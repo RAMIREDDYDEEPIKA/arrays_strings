@@ -14,9 +14,6 @@ public class MinAndMaxElement
 			 }
 		 }
 		 System.out.println(min+" is the minimum array element");
-		 
-		 
-		 //to find maximum element in the array
 		 int max=arr[0];
 		 for(int i=0;i<arr.length;i++)
 		 {
